@@ -6,9 +6,9 @@ const Navbar = () => {
     <nav className='navbar'>
       <h1>Movie Flix</h1>
       <div className='navbar-links'>
-        <a href="">Popular</a>
-        <a href="">Top Rated</a>
-        <a href="">Upcoming</a>
+        <a href="#popular">Popular</a>
+        <a href="#top_rated">Top Rated</a>
+        <a href="#upcoming">Upcoming</a>
       </div>
     </nav>
     </>

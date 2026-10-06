@@ -7,7 +7,9 @@ const App = () => {
     <div className='app-container'>
       <Navbar />
       <main>
-        <MovieList />
+        <MovieList type="popular" title="Popular" />
+        <MovieList type="top_rated" title="Top Rated" />
+        <MovieList type="upcoming" title="Upcoming" />
       </main>
     </div>
   )

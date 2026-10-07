@@ -14,7 +14,6 @@ const MovieList = ({type,title}) => {
     order: 'asc'
   });
 
-
   useEffect(() => {
     fetchMovies();
   } , []);
